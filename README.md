@@ -46,13 +46,13 @@ SatCHAT CLI는 위성 영상 워크플로우를 **대화형 에이전트**로 �
 ### macOS / Linux
 
 ```sh
-curl -LsSf https://github.com/telepix-lab/satchat-cli-releases/releases/latest/download/install.sh | sh
+curl -LsSf https://raw.githubusercontent.com/telepix-lab/satchat-cli-releases/main/install.sh | sh
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
-irm https://github.com/telepix-lab/satchat-cli-releases/releases/latest/download/install.ps1 | iex
+irm https://raw.githubusercontent.com/telepix-lab/satchat-cli-releases/main/install.ps1 | iex
 ```
 
 설치 후 `satchat` 명령을 찾지 못하면 설치 경로를 PATH에 추가하세요.
@@ -67,12 +67,12 @@ irm https://github.com/telepix-lab/satchat-cli-releases/releases/latest/download
 
 ```sh
 # macOS / Linux
-curl -LsSf https://github.com/telepix-lab/satchat-cli-releases/releases/latest/download/install.sh | SATCHAT_VERSION=0.1.5 sh
+curl -LsSf https://raw.githubusercontent.com/telepix-lab/satchat-cli-releases/main/install.sh | SATCHAT_VERSION=0.1.5 sh
 ```
 
 ```powershell
 # Windows
-$env:SATCHAT_VERSION = "0.1.5"; irm https://github.com/telepix-lab/satchat-cli-releases/releases/latest/download/install.ps1 | iex
+$env:SATCHAT_VERSION = "0.1.5"; irm https://raw.githubusercontent.com/telepix-lab/satchat-cli-releases/main/install.ps1 | iex
 ```
 
 </details>
